@@ -1,0 +1,83 @@
+#homePage {
+  display: flex;
+  width: 700vw;
+}
+
+header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  padding: 25px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sectionExperience {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sectionExperience .backgroundImage {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-image: url(./Home/assets/chateauBackgroundImage__experience.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+#sectionExperience #contentExperience {
+  position: relative;
+}
+
+.backgroundImageAnimation {
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out, opacity 2s ease-in-out;
+}
+
+.backgroundImageAnime {
+  transform: scale(1);
+}
+
+#sectionLesVins {
+  width: 300vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#sectionVisites {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sectionDomaine {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sectionEvenement {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#scrollBar {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+}

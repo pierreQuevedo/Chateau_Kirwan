@@ -1,0 +1,36 @@
+#scrollBar_line1{
+    position: absolute;
+    background-color: #DEA46E;
+}
+
+#scrollBar_line2{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .scrollbar__lineCircle{
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
+        background-color: #DEA46E;
+    }
+}
+
+.scrollBar_line{
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(222, 164, 110, 0.3);
+}
+
+.scrollBar__lineAnimation {
+    transform: scaleX(0);
+    transform-origin: 0;
+    opacity: 0;
+    transition: transform 2s ease-in-out, opacity 2s ease-in-out;
+}
+
+.scrollBar__lineAnime{
+    transform: scaleX(7%);
+    opacity: 1;
+}

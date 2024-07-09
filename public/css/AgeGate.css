@@ -1,0 +1,109 @@
+ul, ol, a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+#ageGate_section {
+  width: 100%;
+  height: 100vh;
+  background-color: #2F2A95;
+}
+
+.flex {
+  display: flex;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ageGate_content {
+  width: 23%;
+}
+
+.ageGate_logo {
+  margin-bottom: 6rem;
+}
+
+.ageGate_kirwanLogo {
+  width: 196px;
+  height: 151px;
+}
+
+.ageGate_language {
+  width: 100%;
+}
+
+.ageGate_languageSettings {
+  width: 65%;
+}
+
+.ageGate_languageLinks_opacity100 {
+  opacity: 100% !important;
+}
+
+.ageGate_languageLinks_opacity50 {
+  opacity: 50% !important;
+}
+
+.ageGate_languageLinks:hover {
+  opacity: 100%;
+}
+
+.ageGate_languageLinks {
+  opacity: 50%;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.ageGate_text {
+  margin: 3rem 0 3rem 0;
+}
+
+.ageGate_textParagraph {
+  color: #8E8DC7;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.ageGate_title {
+  font-size: 18px;
+  line-height: 120%;
+  color: white;
+  text-align: center;
+}
+
+.ageGate_submitButton {
+  width: 53%;
+  margin-top: 1.5rem;
+}
+
+.ageGate_submitButtonBg {
+  opacity: 30%;
+}
+
+.ageGate_submitButton_link {
+  background-color: rgba(142, 141, 199, 0.0196078431);
+  padding: 8px 15px;
+  border-bottom: 1px solid #DEA46E;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.ageGate_submitButtonBg:hover {
+  opacity: 100%;
+}

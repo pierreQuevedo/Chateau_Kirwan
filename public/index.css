@@ -1,0 +1,118 @@
+:root{
+  --primary-blue : #2F2A95;
+  --secondary-blue : #8E8DC7;
+  --primary-gold : #DEA46E;
+  --secondary-gold : #F0D5BE;
+}
+
+
+@font-face {
+  font-family: "SaolDisplayRegular_italic";
+  src: local("SaolItalic"), url("./fonts/SaolDisplayRegularItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "SaolDisplayRegular";
+  src: local("Saol"), url("./fonts/SaolDisplayRegular.otf") format("opentype");
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul[role=list], ol[role=list] {
+  list-style: none;
+}
+
+img, picture, svg, video, canvas {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "SaolDisplayRegular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+  line-height: 114px;
+  color: white;
+}
+
+h2 {
+  font-family: "SaolDisplayRegular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 80px;
+  color: white;
+}
+
+h3 {
+  font-family: "SaolDisplayRegular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 42.75px;
+  color: white;
+}
+
+.h3_italic {
+  font-family: "SaolDisplayRegular_italic", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 45px;
+  line-height: 42.75px;
+  color: white;
+}
+
+h4 {
+  font-family: "SaolDisplayRegular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 28.5px;
+  color: white;
+}
+
+h5 {
+  font-family: "classico-urw", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 1.4px;
+  color: white;
+}
+
+p {
+  font-family: "classico-urw", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: white;
+}
+
+.cta {
+  font-family: "classico-urw", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 1.5px;
+}
+
+body {
+  background-color: #333;
+}

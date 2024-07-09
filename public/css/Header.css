@@ -1,0 +1,8 @@
+#header_language {
+  display: flex;
+}
+
+#header_languageEn {
+  color: rgba(255, 255, 255, 0.3137254902);
+  margin-left: 20px;
+}
