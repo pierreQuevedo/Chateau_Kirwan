@@ -129,7 +129,7 @@ export function Gsap(){
           scrollTrigger:{
             trigger:"#sectionLesVins",
             toggleActions: "restart none none reverse",
-            start:'100% 98%',
+            start:'100% 100%',
             end:'bottom',
             markers: {startColor: "blue", endColor: "blue",}
           },
@@ -153,6 +153,90 @@ export function Gsap(){
           ease: 'expo.in',
           opacity: 0,
         });
+      }
+    )
+
+    useGSAP(
+      () => {
+        gsap.fromTo('#sectionVisites',{
+          opacity:0,
+          x: "-400vw",
+          y: "4000",
+        },{
+          scrollTrigger:{
+            pin: true,
+            trigger:"#sectionVisites",
+            toggleActions: "restart none none reverse",
+            start:'100% 100%',
+            end:'bottom',
+            markers: {startColor: "pink", endColor: "pink",}
+          },
+          delay:0.5,
+          opacity:1
+        })
+      }
+    )
+
+    useGSAP(
+      () => {
+        gsap.fromTo('#visites_mainTitle',{
+          opacity: 0,
+          scale: 1.2,
+          letterSpacing: "60px",
+        },{
+          scrollTrigger:{
+            trigger:"#sectionVisites",
+            toggleActions: "restart none none reverse",
+            start:'-=5 top',
+            end:'bottom',
+            markers: {startColor: "green", endColor: "green",}
+          },
+          delay: 1.25,
+          duration: 2,
+          scale: 1,
+          letterSpacing: "0px",
+          opacity: 1,
+        })
+      }
+    )
+
+    useGSAP(
+      () => {
+        gsap.fromTo('#visites_secondTitle',{
+          opacity: 0,
+          translateY: "-25px"
+        },{
+          scrollTrigger:{
+            trigger:"#sectionVisites",
+            toggleActions: "restart none none reverse",
+            start:'-=5 top',
+            end:'+=1000',
+            markers: {startColor: "green", endColor: "green",}
+          },
+          delay: 1.25,
+          duration: 2,
+          translateY: 0,
+          opacity: 1,
+        })
+      }
+    )
+    
+    useGSAP(
+      () => {
+        gsap.fromTo('.visites_Btn',{
+          opacity: 0,
+        },{
+          scrollTrigger:{
+            trigger:"#sectionVisites",
+            toggleActions: "restart none none reverse",
+            start:'-=5 top',
+            end:'+=1000',
+            markers: {startColor: "green", endColor: "green",}
+          },
+          delay: 1.25,
+          duration: 2,
+          opacity: 1,
+        })
       }
     )
 }

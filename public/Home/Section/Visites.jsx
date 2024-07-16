@@ -9,10 +9,10 @@ export function Visites() {
 
             </div>
             <div id="sectionVisitesContent">
-                <h4>Participez à nos</h4>
-                <h1>Visites &<br/>Ateliers</h1>
-                {/* <Btn id={'Visites'}/> */}
-                <Btn/>
+                <h4 id='visites_secondTitle'>Participez à nos</h4>
+                <h1 id='visites_mainTitle'>Visites &<br/>Ateliers</h1>
+                {/* <Btn id={'Visites_btn'}/> */}
+                <Btn className={'visites_Btn'}/>
             </div>
         </>
     )

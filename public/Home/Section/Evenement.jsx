@@ -15,7 +15,7 @@ export function Evenement() {
                 <h1>
                     Réceptions<br/>& Évènements
                 </h1>
-                {/* <Btn id={'Evenement'}/> */}
+                {/* <Btn id={'Evenement_btn'}/> */}
                 <Btn />
             </div>
         </>

@@ -2,19 +2,19 @@ import '../../css/callToAction.css'
 
 // const contentsCallToActions = [
 //     {
-//         id: 'LesVins', 
+//         id: 'LesVins_btn', 
 //         textBtn:'Découvrir nos vins',
 //     },
 //     {
-//         id: 'Visites', 
+//         id: 'Visites_btn', 
 //         textBtn:'Découvrez nos offres',
 //     },
 //     {
-//         id: 'Domaine', 
+//         id: 'Domaine_btn', 
 //         textBtn:'Découvrir le Château Kirwan',
 //     },
 //     {
-//         id: 'Evenement', 
+//         id: 'Evenement_btn', 
 //         textBtn:'Découvrir nos offres',
 //     }
 // ]

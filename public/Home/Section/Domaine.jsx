@@ -15,7 +15,7 @@ export function Domaine() {
                 <h1>
                     Domaine
                 </h1>
-                {/* <Btn id={'Domaine'}/> */}
+                {/* <Btn id={'Domaine_btn'}/> */}
                 <Btn/>
             </div>
         </>
