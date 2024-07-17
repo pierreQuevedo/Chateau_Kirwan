@@ -8,12 +8,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    .scrollbar__lineCircle{
-        width: 8px;
-        height: 8px;
-        border-radius: 4px;
-        background-color: #DEA46E;
-    }
+    // .scrollbar__lineCircle{
+    //     width: 8px;
+    //     height: 8px;
+    //     border-radius: 4px;
+    //     background-color: #DEA46E;
+    // }
 }
 
 .scrollBar_line{
@@ -34,3 +34,38 @@
     transform: scaleX(7%);
     opacity: 1;
 }
+
+.circle-container {
+    position: relative;
+    width: 8px;
+    height: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .scrollbar__lineCircle {
+        width: 8px;
+        height: 8px;
+        background-color: #DEA46E;
+        border-radius: 50%;
+      }
+    #content_circle-text{
+
+        .circle_text {
+            white-space: nowrap;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 15px;
+            opacity: 0;
+            transition: opacity 0.3s, bottom 0.3s;
+            color: #DEA46E;
+        }
+      
+        &:hover .circle_text {
+          opacity: 1;
+          bottom: 15px;
+        }
+    }
+  }

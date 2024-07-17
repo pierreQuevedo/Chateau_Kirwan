@@ -63,3 +63,7 @@
 #devientLieu div h4 span {
   margin-right: 8px;
 }
+
+.overflowHidden {
+  overflow: hidden;
+}

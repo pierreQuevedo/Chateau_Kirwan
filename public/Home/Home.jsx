@@ -7,6 +7,7 @@ import { Domaine } from './Section/Domaine.jsx'
 import { Evenement } from './Section/Evenement.jsx'
 import { Header } from './Section/Header.jsx'
 import { ScrollBar } from './Section/ScrollBar.jsx'
+import { ScrollBtn } from './Section/ScrollBtn.jsx'
 
 const accueil_delayAnimation = 5900
 
@@ -68,6 +69,8 @@ export function Home() {
             <div id='scrollBar'>
                 <ScrollBar/>
             </div>
+
+            <ScrollBtn/>
         </>
     )
 }

@@ -21,13 +21,48 @@ export function ScrollBar(){
         <>
             <div id="scrollBar_line1" className="scrollBar_line scrollBar__lineAnimation"></div>
             <div id="scrollBar_line2" className="scrollBar_line">
-                <div id="scrollbar__circle_accueil" className="scrollbar__lineCircle"></div>
-                <div id="scrollbar__circle_lesVins" className="scrollbar__lineCircle"></div>
-                <div id="scrollbar__circle_histoire" className="scrollbar__lineCircle"></div>
-                <div id="scrollbar__circle_leTerroir" className="scrollbar__lineCircle"></div>
-                <div id="scrollbar__circle_visites&Ateliers" className="scrollbar__lineCircle"></div>
-                <div id="scrollbar__circle_reception&Hospitalite" className="scrollbar__lineCircle"></div>
-                <div id="scrollbar__circle_actualites" className="scrollbar__lineCircle"></div>
+                <div className="circle-container">
+                    <div id="scrollbar__circle_accueil" className="scrollbar__lineCircle"></div>
+                    <div id="content_circle-text">
+                        <p className="circle_text">Accueil</p> 
+                    </div>
+                </div>
+                <div className="circle-container">
+                    <div id="scrollbar__circle_lesVins" className="scrollbar__lineCircle"></div>
+                    <div id="content_circle-text">
+                        <p className="circle_text">Les vins</p>
+                    </div>
+                </div>
+                <div className="circle-container">
+                    <div id="scrollbar__circle_histoire" className="scrollbar__lineCircle"></div>
+                    <div id="content_circle-text">
+                        <p className="circle_text">L’histoire</p>
+                    </div>
+                </div>
+                <div className="circle-container">
+                    <div id="scrollbar__circle_leTerroir" className="scrollbar__lineCircle"></div>
+                    <div id="content_circle-text">
+                        <p className="circle_text">Le terroir</p>
+                    </div>
+                </div>
+                <div className="circle-container">
+                    <div id="scrollbar__circle_visites&Ateliers" className="scrollbar__lineCircle"></div>
+                    <div id="content_circle-text">
+                        <p className="circle_text">Visites & Ateliers</p>
+                    </div>
+                </div>
+                <div className="circle-container">
+                    <div id="scrollbar__circle_reception&Hospitalite" className="scrollbar__lineCircle"></div>
+                    <div id="content_circle-text">
+                        <p className="circle_text">Réception & Hospitalité</p>
+                    </div>
+                </div>
+                <div className="circle-container">
+                    <div id="scrollbar__circle_actualites" className="scrollbar__lineCircle"></div>
+                    <div id="content_circle-text">
+                        <p className="circle_text">Actualités</p>
+                    </div>
+                </div>
             </div>
         </>
 
